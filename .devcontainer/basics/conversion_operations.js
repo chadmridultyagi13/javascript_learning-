@@ -21,4 +21,16 @@ let bool = Boolean(num2)
 // string which is !empty() then -> true 
 // AB STRINGS 
 // 33 -> "33" , 
+// *****************************************************operations**********************************************************
+let value1 = 3 ; 
+let negvalue = -value1
+// iska ouput toh vhi hai jo tu soch rha hai 
+// +,-,*,/,% -> same as c++ , but exponent -> 2**3 = 8 
+let str1 = "hello" 
+let st2 = " mridul"
+// concatenation supported 
+// "1" + 2 -> 12 , 1 + "2" -> 12 , "1" + 2+ 2 -> 122 , 1 + 2 + "2" -> 32 ,  abhi keliye yaad karle 
+// console.log(true) -> true,  console.log(+true) -> 1 , console.log(true+) -> error , console.log(+"") -> 0 
+// prefix and postfix operators of increment -> read from mdn 
+
  
