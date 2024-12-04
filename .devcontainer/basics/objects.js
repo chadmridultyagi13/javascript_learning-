@@ -15,6 +15,19 @@
 // to directly print the object -> console.log(jsuser) 
 // now to add function  as variables 
 // jsuser.greeting = function(){console.log("hello js user")}  -> yaha we are adding greetings
+// In JavaScript, you can add functions to objects as methods. Methods are functions that belong to an object, allowing the object to perform actions or manipulate its own properties.
+// You can add functions to an object after it's created.
+/*const obj = { name: "Charlie" };
+
+obj.sayGoodbye = function () {
+  return `Goodbye, ${this.name}!`;
+};
+
+console.log(obj.sayGoodbye()); // Output: Goodbye, Charlie! */
+
+
+
+
 
 
 
