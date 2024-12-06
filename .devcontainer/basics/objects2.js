@@ -17,4 +17,19 @@ id : 1 , email : "h@gmail.com"},{ id2 : 2 , email : "mridul_t@bt.iitr.ac.in"},{}
 // to get array of keys inside the object -> console.log(Object.keys(tinderuser)) , similarly for values also 
 // console.log(Object.entries(tinderuser)) -> ek array hai jiske andar bohot saari aise -> [key,value] arrays stored hai 
 // console.log(tinderuser.hasOwnProperty("isLoggedIn")) -> basically keys check karte hai , ki voh key exist karti hai nhi -> gives answer in true and false 
- 
+ // object destructuring ---------------------------------
+ /* const course = {
+ coursename : "js in hindi" , price : "999" , courseInstructor : "hitesh"} 
+ one more way to extract the values
+const {courseInstructor} = coursename , 
+console.log(courseInstructor) 
+agar hamko lagta hai ki koi key ka kuch jyada hi bada naam hai toh we can destructure it by using some other name 
+const {coursrInstructor : instructor} = coursename  
+console.log(instructor) -> one alternative way 
+ */
+// APIS ----------------------------------- (yeh video se dekhlio)
+// backend mai kuch values aati hai , unn values ko ham kaise likhte hai , pehle aati thi xml structure mai ab aati hai json mai 
+// json -> object hai without name 
+/* { 
+}
+*/
