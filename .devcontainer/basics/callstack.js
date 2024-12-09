@@ -121,7 +121,7 @@ if (2 == "2") {
 // Strict equality (===)
 if (2 === "2") {
     console.log("Not executed") // This won't execute
-}
+}          -> this also checks datatype 
 
 Detailed Explanation:
 
