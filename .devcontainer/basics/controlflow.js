@@ -234,8 +234,8 @@ Example with short-circuiting:
 console.log(false || "hitesh")        // returns "hitesh"
 console.log("" || "thapa")            // returns "thapa"
 console.log(null || undefined || 0)    // returns 0
-
-SWITCH STATEMENT (COMPREHENSIVE)
+// ek value hai usko multiple values se check kar rahe hai ,toh uss case mai we can use switch case statement 
+SWITCH STATEMENT (COMPREHENSIVE) -> jis case par match hojaata , uske neeche ki saari lines execute hojaati hai , so to break the control flow we use break 
 Basic Syntax:
 
 const month = 3
