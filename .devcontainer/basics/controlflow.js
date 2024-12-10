@@ -324,10 +324,10 @@ s
 B. Truthy Values (Common Examples):
 
 true        // Boolean true
-"0"         // String with zero
-'false'     // String with "false"
-" "         // Space in string
-[]          // Empty array
+"0"         // String with zero                               (false==0) -> gives true 
+'false'     // String with "false"                            (false== '') -> gives true 
+" "         // Space in string                                (0 == '') -> gives true  
+[]          // Empty array                                     -> these three can be asked in interview 
 {}          // Empty object
 function(){} // Empty function
 42          // Any non-zero number
@@ -363,13 +363,13 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("Object is empty")
 }
 
-NULLISH COALESCING OPERATOR (??)
+NULLISH COALESCING OPERATOR (??) -> this is only for null and undefined 
 let val1;
 // Nullish coalescing examples
 val1 = 5 ?? 10            // returns 5
 val1 = null ?? 10         // returns 10
 val1 = undefined ?? 15    // returns 15
-val1 = null ?? 10 ?? 20   // returns 10
+val1 = null ?? 10 ?? 20   // returns 10(jo sabse first waali value hai vhi assign hojaati hai)
 val1 = "" ?? "default"    // returns ""
 
 Key Differences between ?? and ||:
