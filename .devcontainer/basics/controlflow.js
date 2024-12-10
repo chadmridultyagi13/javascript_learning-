@@ -242,7 +242,7 @@ const month = 3
 
 switch (month) {
     case 1:
-        console.log("January")
+        console.log("January")         // mac par hai toh shift + option + dow
         break
     case 2:
         console.log("February")
